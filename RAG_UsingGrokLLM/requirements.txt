@@ -1,0 +1,11 @@
+langchain
+langchain-text-splitters
+langchain-ollama
+langchain-chroma
+langchain-community
+chromadb
+pypdf
+pytest
+groq
+python_dotenv
+langchain_groq
