@@ -11,6 +11,15 @@ Rather than simply passing raw, unstructured data directly to an LLM token bound
 - **Vector Space Querying & Retrieval:** Executes cosine similarity or spatial distance matches to locate the exact top-K relevant passages matching a user query, minimizing LLM hallucination risk.
 - **Context-Enriched Prompt Engineering:** Restructures raw user input dynamically into an engineering-grade prompt block embedding retrieved facts as ground-truth context before execution.
 
+## 🗺️ System Architecture Flow
+
+```text
+[Unstructured Data] ──> [Dynamic Chunking] ──> [Embedding Model] ──> [Vector DB]
+                                                                          │
+                                                                 (Top-K Retrieval)
+                                                                          ▼
+[User Query] ─────────> [Context Enrichment Prompt] ──────────────────> [LLM Engine]
+
 ## 🧰 Technical Ecosystem
 - **Primary Language:** Python
 - **Core Frameworks:** [e.g., LangChain, LlamaIndex, or custom Python data frameworks]
