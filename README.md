@@ -19,6 +19,7 @@ Rather than simply passing raw, unstructured data directly to an LLM token bound
                                                                  (Top-K Retrieval)
                                                                           ▼
 [User Query] ─────────> [Context Enrichment Prompt] ──────────────────> [LLM Engine]
+```
 
 ## 🧰 Technical Ecosystem
 - **Primary Language:** Python
