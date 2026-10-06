@@ -32,9 +32,3 @@ Rather than simply passing raw, unstructured data directly to an LLM token bound
 ### Prerequisites
 - Python 3.10+
 - Applicable environment variables/API keys configured in a local `.env` file.
-
-### Local Execution Steps
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/saketpani/RAG_KT_Consolidated.git](https://github.com/saketpani/RAG_KT_Consolidated.git)
-   cd RAG_KT_Consolidated
